@@ -1,0 +1,18 @@
+{
+  "name": "esri-map",
+  "version": "1.1.0",
+  "description": "",
+  "main": "esri-map.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jibl",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.15.10",
+    "esri-loader": "^3.6.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2"
+  }
+}
