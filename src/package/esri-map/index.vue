@@ -3,7 +3,7 @@
  * @Author: jibl
  * @Date: 2022-11-03 15:17:43
  * @LastEditors: jibl
- * @LastEditTime: 2022-11-10 12:00:23
+ * @LastEditTime: 2022-11-11 13:50:22
 -->
 <!--  -->
 <template>
@@ -117,7 +117,7 @@
         v-model="openLayers"
       >
         <el-divider content-position="left">基本图层</el-divider>
-        <el-checkbox-group v-model="basevVsibleLayersArr">
+        <el-checkbox-group v-model="baseVisibleLayersArr">
           <div
             :key="base.id"
             v-for="base in mapConfig.BaseMapLayers"
@@ -172,7 +172,7 @@ export default {
       //图层
       openLayers: false,
       //基本图层
-      basevVsibleLayersArr: [],
+      baseVisibleLayersArr: [],
       //用户图层
       customVisibleLayersArr: [],
     };

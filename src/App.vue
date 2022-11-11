@@ -3,7 +3,7 @@
  * @Author: jibl
  * @Date: 2022-11-03 15:14:19
  * @LastEditors: jibl
- * @LastEditTime: 2022-11-10 11:54:23
+ * @LastEditTime: 2022-11-11 13:51:18
 -->
 <!--  -->
 <template>
@@ -164,7 +164,7 @@ export default {
 
       textSymbol: {
         type: "text", // autocasts as new TextSymbol()
-        color: "black",
+        color: "blue",
         text: "嫩江",
         xoffset: 16,
         yoffset: 6,
